@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('CERRO.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-attachment: fixed; }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(
+        rgba(211, 210, 210, 0.7),
+        rgba(192, 192, 192, 0.7)),
+        url('');
+       box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+h2 {
+    text-align: center;
+    color: #ff6f61; /* Color llamativo para el título */
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Sombra de texto */
+}
+
+.im {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.im img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation: zoomIn 1s ease-in-out; /* Animación de zoom */
+}
+
+.txt-p p:before {
+    content: attr(value) ". ";
+    font-weight: bold;
+    color: #ff6f61; /* Color llamativo para los números */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+    margin-right: 5px; /* Espacio a la derecha */
+}
+
+/* Estilo para los elementos de la lista de características */
+.txt-p ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    color: #555; /* Color de texto para los elementos de la lista */
+    font-size: 1.1em; /* Tamaño de fuente más grande */
+}
+
+/* Estilo para los bullets de la lista */
+.txt-p ul li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #ff6f61; /* Color llamativo para los bullets */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

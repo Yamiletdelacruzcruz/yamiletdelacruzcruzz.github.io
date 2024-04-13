@@ -1,0 +1,96 @@
+body {
+    background-color: #eeeee8; 
+    background-image: url(catedral.jfif); 
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #807e7e;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0be42f;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+.contacto {
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #1fe958af;
+    border-radius: 25px;
+  }
+  
+  .contacto h2 {
+    text-align: center;
+  }
+  
+  .contacto ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contacto li {
+    margin-bottom: 30px;
+  }
+  
+  .contacto li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #070707;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+    font-family: "comic", cursive;
+    
+  }
+  .texto-justificado {
+    text-align: justify;
+  }
+  .contacto li a:hover {
+    background-color: #ddd;
+  }
+
+.boton-regresar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #575151; /* Color de fondo del botón */
+  color: #eedf09; /* Color del texto */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton-regresar:hover {
+  background-color: #f3f720; /* Color de fondo del botón al pasar el mouse */
+}

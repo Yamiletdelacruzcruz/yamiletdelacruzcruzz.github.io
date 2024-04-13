@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;700;800 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(50, 190, 190, 0.4),
+        rgba(50, 130, 160, 0.4)),
+        url(RIO1.jfif);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        
+        
+
+}
+.header-content {
+    font-size: 40px;
+    font-family: cursives;
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: #0f691b;
+    font-size: 35px;
+    font-weight: 800;
+    position:left;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #27140a;
+    display: block;
+    font-weight: 700;
+}
+
+.menu .navbar ul li a:hover{
+    color: #41b42f;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 30px;
+
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-contert h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+}
+
+.header-contert p{
+    font-size: 15px;
+    color: #c5c5c5;
+    padding: 250px;
+    margin-top: 25px;
+    font-family:cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+.contenedor {
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.imagen {
+    flex: 1;
+    position: relative;
+    width: 100vw; /* Ancho total de la pantalla */
+    height: 300px;
+    overflow: hidden;
+    animation: cambioImagenes 12s infinite; /* Cambia la imagen cada 12 segundos */
+}
+
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anuncio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.SERVICIOS {
+    background-color: #f6f2f2;
+    padding: 20px 0;
+}
+.services-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-1 {
+    width: 30%;
+    padding: 20px;
+    background-color: #b5b4b4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-1:hover {
+    transform: translateY(-5px);
+}
+
+.service-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-1 h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-1 p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-1{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #ebad8d;
+}
+.h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hotels {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.hotel {
+    background-color: #b56b6b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: #060505;
+}
